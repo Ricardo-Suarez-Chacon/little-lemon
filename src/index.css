@@ -1,13 +1,311 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.karla-body{
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.markazi-text-Title {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Markazi Text', serif;
+  font-weight: 700; 
+}
+
+h4, h5, h6 {
+  font-family: 'Markazi Text', serif;
+  font-weight: 500;
+}
+
+/* ====== General Styles ====== */
+/* ====== Navigation ====== */
+/* ====== Star Header ====== */
+.header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  background-color: #EDEFEE;
+  padding: 1rem;
+  border-bottom: #495E57 1px solid;
+}
+
+.logo {
+  grid-column: 2 / span 1;
+  width: auto;
+  height: 3rem;
+}
+
+.nav-header {
+  grid-column: 4 / span 7;
+  text-align: right;
+}
+
+.nav-header menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.nav-header menu.open {
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #EDEFEE;
+  z-index: 100;
+}
+
+
+.nav-header menu li {
+  color: #333333;
+  font-weight: 700;
+  list-style: none;
+  color: inherit;
+}
+
+.nav-header menu li a {
+  color: #495E57;
+  text-decoration: none;
+}
+
+.nav-header menu li a.active {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.hamburger {
+  display: none;
+  margin-right: 15px;
+}
+
+.nav-header menu.open {
+  display: flex;
+}
+
+/* ====== END Header ====== */
+button.App-button {
+  color:#333333;
+  background-color:#FeCE14;
+  width: 10rem;
+  height: auto;
+  border-radius: 16px;
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+/* ====== Star Footer ====== */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  gap: 0.1em;
+  background-color: #EDEFEE;
+  border-top: #495E57 1px solid;
+}
+.logo-footer-container {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  display: flex; /* Hace que los hijos de .logo-footer-container se distribuyan en una línea */
+  justify-content: center; /* Centra los hijos de .logo-footer-container en el eje horizontal */
+  align-items: center; /* Centra los hijos de .logo-footer-container en el eje vertical */
+}
+.logo-footer {
+  grid-column: 2 / span 1;
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.nav-footer {
+  grid-column: 3 / span 2;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400; 
+}
+
+.footer-contact {
+  grid-column: 4 / span 2;
+}
+
+.footer-socials {
+  grid-column: 6 / span 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+.logoSocial{
+  width: 2rem;
+  height: 2rem;
+}
+.footer-nav ul li {
+  color: #333333;
+  font-weight: 700;
+  list-style: none;
+  color: inherit;
+  margin: 5px 0; /* Ajusta estos valores según tus necesidades */
+}
+.footer-nav ul li a {
+  color: #495E57;
+  text-decoration: none;
+}
+
+.footer-nav ul li a.active {
+  text-decoration: underline; /* Subraya el enlace activo */
+  color: inherit; /* Mantiene el color del texto del enlace activo */
+}
+/* ====== End Footer ====== */
+
+
+
+
+
+
+
+/* ==================================== */
+/* Estilos para tablets */
+@media (max-width: 914px) {
+  .header {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo {
+    grid-column: 1 / span 1;
+  }
+
+  .nav-header {
+    grid-column: 2 / span 5;
+  }
+}
+
+/* Estilos para teléfonos móviles */
+@media (max-width: 675px) {
+
+  .header {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .logo {
+    grid-column: 1 / span 1;
+  }
+
+  .nav-header {
+    grid-column:  4 / span 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hamburger {
+    display: block;
+    text-align: right;
+    margin-right: 15px;
+  }
+
+  .nav-header menu {
+    display: none;
+ 
+    top: 4rem;
+    width: 25%;
+    left: 65%; /* Center the menu horizontally */
+    padding: 1rem; /* Añade una separación con el borde */
+    background-color: #EDEFEE; /* Cambia a tu color preferido */
+    border: 1px solid #495E57; /* Cambia a tu color preferido */
+
+  }
+  
+  .nav-header menu.open li {
+    flex: 1;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+
+  /* === Star Footer === */
+  footer {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 0.5em;
+  }
+
+  .logo-footer {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+  }
+
+  .nav-footer {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .footer-contact {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .footer-contact p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .footer-socials {
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .logoSocial {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .footer-nav ul li {
+    margin: 2px 0;
+  }
+  /* === End Footer === */
+  
+  .Footer {
+    order: 4;
+  }
+}
+@media (max-width: 280px) {
+  body {
+    margin-right: -6em;
+  }
+  .nav-header menu {
+    width: 35%;
+    left: 80%; /* Center the menu horizontally */
+  }
 }

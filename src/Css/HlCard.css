@@ -1,0 +1,78 @@
+.Hl-card-container{
+    display: grid;
+    grid-template:
+    "photo photo" 0.3fr
+    "Title price" 0.1fr
+    "text text" auto
+    "foot foot" .1fr/ 1fr .5fr;
+    background-color: #EDEFEE;
+    height: 34rem;
+    width: 20rem;
+    border: solid 1px rgba(51, 51, 51, 0.1);
+    border-radius: 8px 8px 0 0;
+    
+  }
+  
+  .Hl-card-photo{
+    grid-area: photo;
+    height: auto;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  .Hl-card-title{
+    grid-area: Title;
+    font-size: 16pt;
+    text-align: center;
+  }
+  .Hl-card-price{
+    grid-area: price;
+    font-size: 16pt;
+  }
+  .Hl-card-text{
+    grid-area: text;
+    padding: 1rem;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12pt;
+    line-height: 10pt;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
+  .Hl-card-foot{
+    grid-area: foot;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: -3rem;
+}
+
+.Hl-card-foot1{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10pt;
+    line-height: 10pt;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+  
+.Hl-card-bike {
+  margin-left: .1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media (max-width: 768px) {
+  .Hl-card-container{
+
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Hl-card-container{
+
+    width: 100%;
+  }
+}

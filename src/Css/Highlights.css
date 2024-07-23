@@ -1,0 +1,73 @@
+.Hl-container {
+    display: grid;
+    grid-template:
+    '. hea1 hea1 hea2 .' .1fr
+    '. con1 con1 con1 .' 1fr /1fr 1fr 1fr 1fr 1fr ;
+    height: auto;
+    width: 100%;
+    max-width: 3000px; /* Ajusta según sea necesario */
+    margin-bottom: 1rem;
+  }
+  .Hl-container-head1 {
+    grid-area: hea1;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    font-size: 18pt;
+    letter-spacing: 2px;
+    margin-top: -1rem;
+    margin-bottom: -2.5rem;
+    color: #333333;
+    width: 100%;
+  }
+  .Hl-container-head2 {
+    grid-area: hea2;
+    height: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+  }
+  .carousel-container-ext {
+    grid-area: con1;
+    padding: 1rem;
+    width: 100%;
+    max-width: 3000px; /* Ajusta según sea necesario */
+    margin: 0 auto; /* Centra el contenedor si es más pequeño que el ancho disponible */
+  }
+  .react-multi-carousel-dot-list {
+    margin: 0.5rem !important;;
+  }
+  .carousel-container .carousel-card {
+    
+    flex: 1 0 calc(100% );
+    margin: 0%;
+  }
+  
+  @media (max-width: 450px) { /* Ajusta este valor según el punto de ruptura deseado para dispositivos móviles */
+    .Hl-container {
+      display: grid;
+      grid-template:
+      'hea1 hea1 hea1 hea2 hea1' .05fr
+      'con1 con1 con1 con1 con1' 1fr /1fr 1fr 1fr 1fr 1fr ;
+      width: 100%;
+      max-width: 412px; /*
+    }
+  
+    .Hl-container-head1 {
+      grid-area: hea1;
+      /* Ajustes adicionales para móviles si son necesarios */
+    }
+  
+    .Hl-container-head2 {
+      grid-area: hea2;
+      /* Ajustes adicionales para móviles si son necesarios */
+      margin-left: 0; /* Elimina el margen izquierdo adicional para dispositivos móviles */
+    }
+  
+    .carousel-container-ext {
+      grid-area: con1;
+      padding: 0rem;
+      width: 100%;
+      max-width: 22rem; /* Ajusta según sea necesario */
+      margin: 0 auto; 
+    }
+  }

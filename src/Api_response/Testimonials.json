@@ -1,0 +1,24 @@
+
+[
+    {
+        "photo": "/Img/David_client.jpeg",
+        "text1": "I had a delightful experience at Little Lemon. The service was prompt and friendly, and the food was delicious.",
+        "name": "David",
+        "text2": "I particularly enjoyed their pizza, which had a perfect crust and flavorful toppings. The atmosphere was cozy, making it a great place for a casual dinner with friends. I would definitely return to Little Lemon.",
+        "rating": 4.5
+    },
+    {
+        "photo": "/Img/Alice_client.jpeg",
+        "text1": "I absolutely love Little Lemon! The ambiance is cozy, the staff is incredibly friendly, and the food is always top-notch.",
+        "name": "Alice",
+        "text2": "I especially enjoy their pasta dishes, which are cooked to perfection. I highly recommend this restaurant to anyone looking for an authentic Italian dining experience.",
+        "rating": 5
+    },
+    {
+        "photo": "/Img/Giovanni_client.jpeg",
+        "text1": "As an Italian, I must say that Little Lemon pleasantly surprised me!",
+        "name": "Giovanni",
+        "text2": "I tried the Minestrone Soup, which was hearty and flavorful, just like the one my grandma used to make. I finished off with the Lemon Ricotta Pancakes, which were light and fluffy, with a subtle hint of lemon that reminded me of home.",
+        "rating": 5
+    }
+]

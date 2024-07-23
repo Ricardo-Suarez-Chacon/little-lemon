@@ -1,0 +1,61 @@
+/*-----------------------------Testimonials -------------------*/
+/* Testimonials.css */
+
+.Testimonial-container {
+  display: grid;
+  grid-gap: 1rem 3rem;
+  grid-template:
+  '. hea1 hea1 hea1 .' .1fr
+  '. con1 con1 con1 .' .9fr /1fr 1fr 1fr 1fr 1fr ;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #495E57;
+  padding-bottom: 2rem;
+}
+.Testimonial-container-head {
+  grid-area: hea1;
+  font-family: 'Karla';
+  letter-spacing: 1px;
+  color:#FBDABB;
+  font-weight:bolder;
+  font-size: 20pt;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: -1rem;
+  margin-bottom: -2rem;
+}
+.carousel-container {
+  grid-area: con1;
+  width: 100%;
+  max-width: 3000px; /* Ajusta según sea necesario */
+}
+.react-multi-carousel-dot-list {
+  margin: -0.1rem !important;;
+}
+.carousel-container .carousel-card {
+  
+  flex: 1 0 calc(100% -2% ); /* Esto hará que el carrusel ocupe aproximadamente el 33.33% del ancho del contenedor, permitiendo que se muestren 3 elementos por fila. El 2% es para tener en cuenta los márgenes. */
+  margin: 10%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .Testimonial-container {
+    display: grid;
+    grid-template:
+    'hea1 hea1 hea1 hea1 hea1' .1fr
+    'con1 con1 con1 con1 con1' 1fr /1fr 1fr 1fr 1fr 1fr ;
+    height: 45rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #495E57;
+    padding-bottom: 2rem;
+    justify-items: center;
+    align-items: stretch;
+  }
+  .carousel-container {
+    max-width: 18rem;;
+  }
+
+}

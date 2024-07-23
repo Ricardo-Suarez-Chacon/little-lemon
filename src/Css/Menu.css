@@ -1,0 +1,63 @@
+.all-background{
+  background-color:#333333;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  margin-bottom: 1rem;
+  background-color: #495E57;
+  padding-bottom: 2rem;
+  border: 3px double #999999; /* Ajustado para mostrar un borde doble */
+}
+.group-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #495E57;
+
+  
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1px; /* Ajusta el margen para crear espacio entre las cards */
+}
+
+/* Estilos para las cards dentro de .row */
+.row .card-container {
+  margin: 10px; /* Ajusta el margen para crear espacio alrededor de las cards */
+  flex: 0 1 calc(0.5rem - 30px); /* Por defecto, asumimos 3 items por fila, ajusta el margen según sea necesario */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #495E57;
+  width: 100%;
+}
+
+.text-group {
+  color:#FeCE14;
+  font-family: 'Markazi Text';
+  font-weight: 400;
+  font-size: 32pt;
+}
+@media (max-width: 910px) {
+  /* Para tabletas, ajustamos para tener 2 items por fila */
+  .row .card-container {
+    flex: 0 1 calc(50% - 30px);
+  }
+}
+
+@media (max-width: 768px) {
+  /* Para móviles, ajustamos para tener 1 item por fila */
+  .row .card-container {
+    flex: 0 1 100%;
+  }
+}

@@ -1,0 +1,89 @@
+/*-------------------- Testimonial data card --------------*/
+.Testimonial-card-container{
+  display: grid;
+  grid-template:
+  "stars" 0.5fr
+  "photo" 3fr
+  "text1" auto
+  "name" .5fr
+  "text2" auto/ 1fr;
+  background-color:#EDEFEE;
+  height: 38rem;
+  width: 100%;
+  border: solid 1px rgba(51, 51, 51, .1);
+  border-radius: 8px 8px 0 0;
+}
+
+.Testimonial-card-photo{
+  grid-area: photo;
+  height: auto;
+  /*App-header: auto;*/
+  width: 100%;
+  border-radius: 4px;
+  height: auto;
+}
+
+.Testimonial-card-photo-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 10rem;
+}
+
+.Testimonial-card-name{
+  grid-area: name;
+  font-size: 12pt;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.Testimonial-card-text1{
+  grid-area: text1;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10pt;
+  line-height: 10pt;
+  margin-top: 2rem;
+  margin-bottom: 0.1rem;
+  width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Testimonial-card-text2{
+  grid-area: text2;
+  padding: 1rem;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10pt;
+  line-height: 10pt;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.Testimonial-card-stars {
+  grid-area: stars;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: -2.1rem; /* Ajusta este valor a tus necesidades */
+}
+
+p .Testimonial-card-stars {
+
+  margin-bottom: -2.1rem; /* Ajusta este valor a tus necesidades */
+}
+
+.Testimonial-stars{
+  height: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .carousel-container  {
+   width: 100%;
+   height: 36rem;
+  }
+}

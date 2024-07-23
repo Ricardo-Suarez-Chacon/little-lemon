@@ -1,0 +1,16 @@
+.confirmed-booking {
+    background-color: #495E57;
+    color: #FeCE14; 
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  .confirmation-message {
+    text-align: center;
+  }

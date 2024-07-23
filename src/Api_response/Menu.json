@@ -1,0 +1,177 @@
+[
+    {
+        "title": "Hummus Trio",
+        "description": "A selection of classic hummus, roasted red pepper hummus, and olive tapenade served with warm pita bread.",
+        "photo": "/Img/menu/Hummus_Trio_2.jpeg",
+        "group": "Appetizers",
+        "price": "10.99"
+    },
+    {
+        "title": "Greek Salad",
+        "description": "Crisp lettuce, tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, tossed in a lemon-herb vinaigrette.",
+        "photo": "/Img/menu/Greek_Salad_1.jpeg",
+        "group": "Appetizers",
+        "price": "12.99"
+    },
+    {
+        "title": "Falafel Platter",
+        "description": "Crispy chickpea fritters served with tahini sauce, tabbouleh, and pickled vegetables.",
+        "photo": "/Img/menu/Falafel_Platter.jpeg",
+        "group": "Appetizers",
+        "price": "11.99"
+    },
+    {
+        "title": "Moussaka",
+        "description": "Layers of eggplant, potato, and seasoned ground lamb, topped with béchamel sauce and baked to perfection.",
+        "photo": "/Img/menu/Moussaka_1.jpeg",
+        "group": "Main Courses",
+        "price": "19.99"
+    },
+    {
+        "title": "Shawarma Plate",
+        "description": "Slices of marinated chicken or beef, served with rice, grilled vegetables, and garlic sauce.",
+        "photo": "/Img/menu/Shawarma_Plate_3.jpeg",
+        "group": "Main Courses",
+        "price": "18.99"
+    },
+    {
+        "title": "Seafood Paella",
+        "description": "A flavorful rice dish cooked with a variety of seafood, saffron, tomatoes, and bell peppers.",
+        "photo": "/Img/menu/Seafood_Paella_4.jpeg",
+        "group": "Main Courses",
+        "price": "24.99"
+    },
+    {
+        "title": "Lamb Kebabs",
+        "description": "Tender pieces of marinated lamb, grilled and served with rice pilaf and tzatziki sauce.",
+        "photo": "/Img/menu/Lamb_Kebabs.jpeg",
+        "group": "Main Courses",
+        "price": "21.99"
+    },
+    {
+        "title": "Spanakopita",
+        "description": "Flaky phyllo pastry filled with spinach, feta cheese, and herbs.",
+        "photo": "/Img/menu/Spanakopita_2.jpeg",
+        "group": "Appetizers",
+        "price": "9.99"
+    },
+    {
+        "title": "Grilled Octopus",
+        "description": "Tender octopus marinated in olive oil, garlic, and herbs, then grilled to perfection.",
+        "photo": "/Img/menu/Grilled_Octopus.jpeg",
+        "group": "Main Courses",
+        "price": "15.99"
+    },
+    {
+        "title": "Chicken Souvlaki Pita",
+        "description": "Grilled chicken skewers wrapped in a warm pita with lettuce, tomatoes, onions, and tzatziki sauce.",
+        "photo": "/Img/menu/Chicken_Souvlaki_Pita_4.jpeg",
+        "group": "Main Courses",
+        "price": "13.99"
+    },
+    {
+        "title": "Baklava",
+        "description": "Layers of phyllo pastry filled with chopped nuts and sweetened with honey syrup.",
+        "photo": "/Img/menu/Baklava.jpeg",
+        "group": "Desserts",
+        "price": "6.99"
+    },
+    {
+        "title": "Tabbouleh Salad",
+        "description": "A refreshing salad made with bulgur wheat, parsley, tomatoes, cucumbers, and mint, tossed in a lemon dressing.",
+        "photo": "/Img/menu/Tabbouleh_Salad_2.jpeg",
+        "group": "Appetizers",
+        "price": "9.99"
+    },
+    {
+        "title": "Stuffed Grape Leaves",
+        "description": "Grape leaves stuffed with a mixture of rice, pine nuts, currants, and spices, served with tzatziki sauce.",
+        "photo": "/Img/menu/Stuffed_Grape_Leaves_1.jpeg",
+        "group": "Appetizers",
+        "price": "8.99"
+    },
+    {
+        "title": "Lentil Soup",
+        "description": "A hearty soup made with lentils, carrots, celery, onions, and spices.",
+        "photo": "/Img/menu/Lentil_Soup.jpeg",
+        "group": "Appetizers",
+        "price": "7.99"
+    },
+    {
+        "title": "Grilled Halloumi Cheese",
+        "description": "Slices of halloumi cheese grilled until golden brown, served with a side of lemon wedges.",
+        "photo": "/Img/menu/Grilled_Halloumi_Cheese.jpeg",
+        "group": "Appetizers",
+        "price": "10.99"
+    },
+    {
+        "title": "Lemon and Herb Roasted Chicken",
+        "description": "Half a chicken marinated in lemon, garlic, and herbs, roasted until juicy and tender.",
+        "photo": "/Img/menu/Lemon_and_Herb_Roasted_Chicken_2.jpeg",
+        "group": "Main Courses",
+        "price": "20.99"
+    },
+    {
+        "title": "Mediterranean Mixed Grill",
+        "description": "A selection of grilled meats, including chicken, lamb, and beef, served with rice pilaf and tzatziki sauce.",
+        "photo": "/Img/menu/Mediterranean_Mixed_Grill_3.jpeg",
+        "group": "Main Courses",
+        "price": "25.99"
+    },
+    {
+        "title": "Feta and Olive Plate",
+        "description": "A selection of feta cheese, mixed olives, and marinated vegetables, served with bread.",
+        "photo": "/Img/menu/Feta_and_Olive_Plate_1.jpeg",
+        "group": "Appetizers",
+        "price": "10.99"
+    },
+    {
+        "title": "Mediterranean Pizza",
+        "description": "Thin and crispy pizza crust topped with homemade tomato sauce, fresh mozzarella, Kalamata olives, cherry tomatoes, fresh basil leaves, and crumbled feta cheese.",
+        "photo": "/Img/menu/Mediterranean_pizza_2.jpeg",
+        "group": "Main Courses",
+        "price": "16.99"
+    },
+    {
+        "title": "Pizza Margherita",
+        "description": "Delight in the classic flavors of Italy with our Margherita pizza. Topped with rich tomato sauce, creamy mozzarella cheese, fresh basil leaves, and a drizzle of olive oil.",
+        "photo": "/Img/menu/Margherita_pizza_3.jpeg",
+        "group": "Main Courses",
+        "price": "14.99"
+    },
+    {
+        "title": "Greek Coffee",
+        "description": "Strong and rich Greek coffee served in a traditional briki pot.",
+        "photo": "/Img/menu/Greek_Coffee.jpeg",
+        "group": "Drinks",
+        "price": "3.99"
+    },
+    {
+        "title": "Mastika",
+        "description": "A traditional Greek liqueur made from mastic resin.",
+        "photo": "/Img/menu/Mastika.jpeg",
+        "group": "Drinks",
+        "price": "6.99"
+    },
+    {
+        "title": "Greek Frappe",
+        "description": "Iced coffee made with instant coffee, water, sugar, and milk.",
+        "photo": "/Img/menu/Greek_Frappe.jpeg",
+        "group": "Drinks",
+        "price": "4.99"
+    },
+    {
+        "title": "Lemonade",
+        "description": "Freshly squeezed lemonade with a hint of mint.",
+        "photo": "/Img/menu/Lemonade.jpeg",
+        "group": "Drinks",
+        "price": "4.99"
+    },
+    {
+        "title": "Herbal Tea",
+        "description": "A variety of Greek herbal teas including chamomile and mountain tea.",
+        "photo": "/Img/menu/Herbal_Tea.jpeg",
+        "group": "Drinks",
+        "price": "3.99"
+    }
+]

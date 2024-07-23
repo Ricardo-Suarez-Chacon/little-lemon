@@ -1,0 +1,108 @@
+
+.grid-container-about {
+    display: grid;
+    grid-template:
+    '. TLL  TLL TLL .' 0.1fr
+    '. PLL . IMF .' 1fr
+    '. TLD . TLF .' auto/1fr 1fr 1fr 1fr 1fr ;
+    background-image: url('/public/Img/Little_Lemon_bk.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.carousel_rest_img {
+    position: relative;
+    grid-area: PLL;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 25rem;
+    z-index: 1;
+}
+.carousel-image {
+    width: 100%;
+    height: auto;
+ 
+}
+.text-box-Rest{
+    position: relative;
+    grid-area: TLL;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box-RDersc{
+    position: relative;
+    grid-area: TLD;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    font-size: 18pt;
+}
+.text-box-TextFml{
+    position: relative;
+    grid-area: TLF;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    font-size: 18pt;
+}
+.ImageFan-css{
+    position: relative;
+    grid-area: IMF;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 25rem;
+    z-index: 1;
+}
+
+.react-multi-carousel-arrow {
+    position: absolute;
+    top: 50%; /* Centra las flechas verticalmente */
+    transform: translateY(-50%); /* Asegura que el centro de las flechas esté alineado con el centro del carrusel */
+    z-index: 2;
+}
+@media (max-width:768px){
+
+    .grid-container-about {
+
+        display: flex;
+
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .text-box-Rest{
+        padding: 3%;
+    }
+    .carousel_rest_img {
+        width: 20rem;
+        height: 20rem;
+        z-index: 1;
+    }
+    .text-box-RDersc{
+        font-size: 16pt;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -7%;
+    }
+    .ImageFan-css{
+        width: 20rem;
+        height: 20rem;
+        z-index: 1;
+    }
+    .text-box-TextFml{
+        font-size: 16pt;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -7%;
+    }
+}

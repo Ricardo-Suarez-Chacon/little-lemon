@@ -1,0 +1,20 @@
+/* ImageFan.css */
+.image-fan {
+    perspective: 1200px;
+    transform-style: preserve-3d;
+    width: 100%; /* Reduce el tamaño del componente a la mitad */
+    margin: 0 auto; /* Centra el componente */
+}
+
+.image-fan__image {
+    position: absolute;
+    width: 100%; /* Asegura que las imágenes llenen el componente */
+    height: auto; /* Mantiene la relación de aspecto de las imágenes */
+    transform: rotateY(calc(85deg * var(--i)));
+    transform-origin: right center; /* Mueve el punto de rotación al borde derecho de las imágenes */
+    transition: transform 1s;
+}
+
+.image-fan__image--selected {
+    transform: rotateY(0);
+}

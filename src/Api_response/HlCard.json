@@ -1,0 +1,22 @@
+
+[
+    {
+        "photo": "/Img/menu/Greek_Salad_1.jpeg",
+        "title": "Greek_Salad",
+        "price": "12.99",
+        "description": "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."
+    },
+    {
+        "photo": "/Img/menu/Moussaka_1.jpeg",
+        "title": "Moussaka",
+        "price": "19.99",
+        "description": "Layers of eggplant, potato, and seasoned ground lamb, topped with béchamel sauce and baked to perfection."
+    },
+    {
+        "photo": "/Img/menu/Seafood_Paella_3.jpeg",
+        "title": "Seafood Paella",
+        "price": "24.99",
+        "description": "Immerse yourself in the flavors of the sea with our seafood paella. This traditional Spanish dish features rice cooked with a variety of fresh seafood, saffron, tomatoes, and bell peppers."
+    }
+
+]
