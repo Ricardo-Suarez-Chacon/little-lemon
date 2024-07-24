@@ -33,21 +33,23 @@ const BookingPage = (props) => {
       };
 
 
-  return (
-    <main aria-labelledby="main-heading">
-      <header>
-        <h1 id="main-heading">Reservations</h1>
-      </header>
-      <section aria-labelledby="form-heading" className="reservation-form">
-        <BookingForm
-          className="booking-form"
-          availableTimes={availableTimes} // Pass the availableTimes state directly
-          dispatch={dispatch}
-          submitData={submitData}
-        />
-      </section>
-    </main>
-  );
+      return (
+        <>
+            <main id="main-content" aria-labelledby="main-heading">
+                <header>
+                    <h1 id="main-heading">Reservations</h1>
+                </header>
+                <article aria-labelledby="form-heading" className="reservation-form">
+                    <BookingForm
+                        className="booking-form"
+                        availableTimes={availableTimes}
+                        dispatch={dispatch}
+                        submitData={submitData}
+                    />
+                </article>
+            </main>
+        </>
+    );
 }
 
 export default BookingPage;

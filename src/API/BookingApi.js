@@ -12,7 +12,7 @@ export const fetchAPI = function(date) {
         throw new TypeError("Expected 'date' to be a Date object");
     }
 
-    let result = [];
+    let result = [""];
     let random = seededRandom(date.getDate());
 
     for(let i = 17; i <= 23; i++) {

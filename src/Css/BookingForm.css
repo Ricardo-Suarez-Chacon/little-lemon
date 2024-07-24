@@ -19,7 +19,7 @@
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     font-family: 'Karla', sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 
@@ -37,4 +37,23 @@
 .submitButton:active {
     background-color: #FeCE14; /* Nuevo color del botón al hacer clic */
     color: #495E57;
+}
+.submitButton:disabled {
+    background-color: #cccccc; /* Color de fondo cuando está deshabilitado */
+    color: #666666; /* Color de texto cuando está deshabilitado */
+    cursor: not-allowed; /* Cambia el cursor para indicar que el elemento está deshabilitado */
+}
+.input.invalid {
+    border-color: red;
+}
+
+.small {
+    color: #A30A0A;
+    font-size: 12px;
+}
+.error {
+    color: #A30A0A;
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: -1rem;
 }
